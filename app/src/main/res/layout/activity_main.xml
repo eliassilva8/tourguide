@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.tourguide.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="16dp"
+        android:text="@string/city_name"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="8dp"
+        android:text="@string/description"
+        android:textSize="18sp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.miwok.MainActivity">
+
+        <FrameLayout
+            style="@style/CategoryFramelayout"
+            android:background="@color/green600">
+
+            <TextView
+                android:id="@+id/category_where_to_go"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_where_to_go" />
+        </FrameLayout>
+
+        <FrameLayout
+            style="@style/CategoryFramelayout"
+            android:background="@color/green700">
+
+            <TextView
+                android:id="@+id/category_where_to_eat"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_where_to_eat" />
+        </FrameLayout>
+
+        <FrameLayout
+            style="@style/CategoryFramelayout"
+            android:background="@color/green800">
+
+            <TextView
+                android:id="@+id/category_what_to_celebrate"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_what_to_celebrate" />
+        </FrameLayout>
+
+        <FrameLayout
+            style="@style/CategoryFramelayout"
+            android:background="@color/green900">
+
+            <TextView
+                android:id="@+id/category_where_to_stay"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_where_to_stay" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

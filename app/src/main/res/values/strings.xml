@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+    <string name="city_name">Fundão</string>
+    <string name="description">365 days to discover</string>
+    <string name="category_where_to_go">Where to go?</string>
+    <string name="category_where_to_eat">Where to eat?</string>
+    <string name="category_where_to_stay">Where to stay?</string>
+    <string name="category_what_to_celebrate">What to celebrate?</string>
+</resources>
